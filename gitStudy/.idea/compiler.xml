@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring_Ioc" />
+        <module name="spring_Ioc_spirit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring_Ioc_spirit" target="8" />
+      <module name="gitStudy" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
