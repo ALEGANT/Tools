@@ -17,18 +17,19 @@ public class ClassModifier {
     }
 
     public byte[] modifyUTF8Constant(String oldStr, String newStr) {
-        int cpc = getConstantPoolCountCount();
+        int cpc = getConstantPoolCount();
         int offset = CONSTANT_POOL_COUNT_INDEX + u2;
-        for(int i = 0; i< cpc; i++){
+        for (int i = 0; i < cpc; i++) {
             int tag = ByteUtils.bytes2Int(classByte, offset, u1);
-            if(tag == CONSTANT_Utf8_info) {
+            if (tag == CONSTANT_Utf8_info) {
                 int len = ByteUtils.bytes2Int(classByte, offset + u1, u2);
                 offset += (u1 + u2);
                 String str = ByteUtils.bytes2String(classByte, offset, len);
-                if(str.equalsIgnoreCase(oldStr)) {
-                    byte[] strBytes = ByteUtils.String2Bytes(newStr);
+                if (str.equalsIgnoreCase(oldStr)) {
+                    byte[] strBytes = ByteUtils.string2Bytes(newStr);
                     byte[] strLen = ByteUtils.int2Bytes(newStr.length(), u2);
                     classByte = ByteUtils.bytesReplace(classByte, offset - u2, u2, strLen);
+                    classByte = ByteUtils.bytesReplace(classByte, offset, len, strBytes);
                     return classByte;
                 } else {
                     offset += len;
@@ -40,7 +41,7 @@ public class ClassModifier {
         return classByte;
     }
 
-     public int getConstantPoolCountCount(){
+    public int getConstantPoolCount() {
         return ByteUtils.bytes2Int(classByte, CONSTANT_POOL_COUNT_INDEX, u2);
-     }
+    }
 }

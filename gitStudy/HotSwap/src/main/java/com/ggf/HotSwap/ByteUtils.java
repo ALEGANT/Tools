@@ -12,7 +12,7 @@ public class ByteUtils {
         return sum;
     }
 
-    public static String byte2String(byte[] b, int start, int len) {
+    public static String bytes2String(byte[] b, int start, int len) {
         return new String(b, start, len);
     }
 
@@ -27,7 +27,7 @@ public class ByteUtils {
         }
         return b;
     }
-    
+
     public static byte[] bytesReplace(byte[] originalBytes, int offset, int len, byte[] replaceBytes) {
         byte[] newBytes = new byte[originalBytes.length + (replaceBytes.length - len)];
         System.arraycopy(originalBytes, 0, newBytes, 0, offset);
