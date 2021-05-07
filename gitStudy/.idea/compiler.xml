@@ -10,6 +10,7 @@
         <module name="spring_Ioc_spirit" />
         <module name="designPatterns" />
         <module name="spring_Ioc" />
+        <module name="HotSwap" />
       </profile>
     </annotationProcessing>
   </component>
