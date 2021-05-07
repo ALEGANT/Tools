@@ -12,8 +12,5 @@
         <module name="spring_Ioc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="gitStudy" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
