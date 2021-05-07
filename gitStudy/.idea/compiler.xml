@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="JVM" />
         <module name="spring_Ioc_spirit" />
+        <module name="spring-Aop" />
         <module name="designPatterns" />
         <module name="spring_Ioc" />
         <module name="HotSwap" />
