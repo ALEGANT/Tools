@@ -235,3 +235,9 @@ ApplicationEventPublisher接口提供了事件处理的服务,这使得Bean的�
 2. AbstractBeanFactory执行createBean方法委托到AbstractAutowireCapableBeanFactory执行
 3. AbstractAutowireCapableBeanFactory执行instantiate委托到SimpleInstantiationStrategy执行，并返回populateBean方法
 4. AbstractAutowireCapableBeanFactory适配了属性值后执行resolveReference委托到BeanDefinitionResolver执行
+
+# 关于AOP源码详解
+
+## 关于AOP
+
+### AOP是什么
