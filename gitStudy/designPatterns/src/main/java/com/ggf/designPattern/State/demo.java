@@ -1,4 +1,4 @@
-package main.java.com.ggf.designPattern.State;
+package com.ggf.designPattern.State;
 
 public class demo {
 
