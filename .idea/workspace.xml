@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e1c4be-7535-416d-8759-e79abc7a9745" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gitStudy/designPatterns/src/main/java/com/ggf/designPattern/Decorator/BlueShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitStudy/designPatterns/src/main/java/com/ggf/designPattern/Decorator/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitStudy/designPatterns/src/main/java/com/ggf/designPattern/Decorator/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitStudy/designPatterns/src/main/java/com/ggf/designPattern/Decorator/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitStudy/designPatterns/src/main/java/com/ggf/designPattern/Decorator/ShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitStudy/designPatterns/src/main/java/com/ggf/designPattern/Strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitStudy/designPatterns/src/main/java/com/ggf/designPattern/Strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitStudy/designPatterns/src/main/java/com/ggf/designPattern/Strategy/SubtractStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitStudy/designPatterns/src/main/java/com/ggf/designPattern/Strategy/addStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitStudy/designPatterns/src/main/java/com/ggf/designPattern/Strategy/multiplyStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tools.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gitStudy/常见错误积累.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitStudy/常见错误积累.md" afterDir="false" />
     </list>
@@ -102,6 +91,8 @@
       <workItem from="1629944284636" duration="8000" />
       <workItem from="1629980329902" duration="1478000" />
       <workItem from="1631329537258" duration="1011000" />
+      <workItem from="1631775909725" duration="133000" />
+      <workItem from="1631776066094" duration="51000" />
     </task>
     <servers />
   </component>
