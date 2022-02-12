@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35e1c4be-7535-416d-8759-e79abc7a9745" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitStudy/常见错误积累.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitStudy/常见错误积累.md" afterDir="false" />
-    </list>
+    <list default="true" id="35e1c4be-7535-416d-8759-e79abc7a9745" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +62,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.demo" />
@@ -95,6 +103,7 @@
       <workItem from="1631776066094" duration="51000" />
       <workItem from="1632466749406" duration="1608000" />
       <workItem from="1632898460781" duration="13000" />
+      <workItem from="1643111537459" duration="579000" />
     </task>
     <servers />
   </component>
