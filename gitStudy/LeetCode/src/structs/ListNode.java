@@ -12,7 +12,7 @@ class ListNode{
         ListNode curr = head;
         while(curr.next != null){
             next = curr;
-            curr.next = prev
+            curr.next = prev;
             prev = curr;
             curr = next;
         }
@@ -28,15 +28,4 @@ class ListNode{
     }
 }
 
-class test{
-    int[] a = new int[](0,1,2,2,3,3,4);
-    int i = 0;
-	for(int j = 1; j < a.length; j++){
-        if(a[j] != a[i]){
-            i ++;
-            a[i + 1] = a[j];
-        }
-    }
-	return i;
-}
 
