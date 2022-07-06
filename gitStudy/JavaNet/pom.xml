@@ -2,22 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring-01</artifactId>
+        <groupId>com.elegant</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.elegant</groupId>
-    <artifactId>spring-01</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>spring_Ioc_spirit</module>
-        <module>spring_Ioc</module>
-        <module>spring_Ioc_spirit</module>
-        <module>designPatterns</module>
-        <module>JVM</module>
-        <module>HotSwap</module>
-        <module>spring-Aop</module>
-        <module>JavaNet</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.18.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+    <artifactId>JavaNet</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

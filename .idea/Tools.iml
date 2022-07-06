@@ -5,8 +5,10 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/gitStudy/HotSwap/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gitStudy/designPatterns/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gitStudy/JavaNet/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/gitStudy/HotSwap/target" />
       <excludeFolder url="file://$MODULE_DIR$/gitStudy/designPatterns/target" />
+      <excludeFolder url="file://$MODULE_DIR$/gitStudy/JavaNet/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
