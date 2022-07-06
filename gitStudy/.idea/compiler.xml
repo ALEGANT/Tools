@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JVM" />
-        <module name="spring_Ioc_spirit" />
-        <module name="spring-Aop" />
         <module name="designPatterns" />
         <module name="spring_Ioc" />
         <module name="HotSwap" />
+        <module name="JavaNet" />
+        <module name="spring_Ioc_spirit" />
+        <module name="spring-Aop" />
       </profile>
     </annotationProcessing>
   </component>
