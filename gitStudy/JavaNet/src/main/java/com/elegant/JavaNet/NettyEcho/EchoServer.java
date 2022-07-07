@@ -19,7 +19,7 @@ public class EchoServer {
 
     public static void main(String[] args) throws Exception {
         if(args.length != 1){
-            System.err.println("error!");
+            System.err.println("server error!");
             return;
         }
         int port = Integer.parseInt(args[0]);
