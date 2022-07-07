@@ -1,4 +1,4 @@
-package com.elegant.JavaNet;
+package com.elegant.JavaNet.NettyEcho;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

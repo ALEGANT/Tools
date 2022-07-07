@@ -1,4 +1,4 @@
-package com.elegant.JavaNet;
+package com.elegant.JavaNet.NettyEcho;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
