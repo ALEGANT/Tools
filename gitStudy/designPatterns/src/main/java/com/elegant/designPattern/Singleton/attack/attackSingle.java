@@ -1,6 +1,6 @@
 package com.elegant.designPattern.Singleton.attack;
 
-import com.ggf.designPattern.Singleton.Hungry.singleTon;
+import com.elegant.designPattern.Singleton.Hungry.singleTon;
 
 import java.lang.reflect.Constructor;
 
