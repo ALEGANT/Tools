@@ -1,10 +1,10 @@
 package com.elegant.designPattern.Command;
 
-public class BuyStock implements Command {
+public class BuyCommand implements Command {
 
     private Stock pstock;
 
-    public BuyStock(Stock pstock) {
+    public BuyCommand(Stock pstock) {
         this.pstock = pstock;
     }
 

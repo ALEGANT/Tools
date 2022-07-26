@@ -1,4 +1,4 @@
-package com.ggf.designPattern.Command.MyCommand;
+package com.elegant.designPattern.Command.MyCommand;
 
 public class ACommand implements Order{
     protected long lastStamp = 0;

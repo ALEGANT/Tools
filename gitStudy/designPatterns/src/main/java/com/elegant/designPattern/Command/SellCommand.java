@@ -1,9 +1,9 @@
 package com.elegant.designPattern.Command;
 
-public class SellStock implements Command {
+public class SellCommand implements Command {
     private Stock pStock;
 
-    public SellStock(Stock pStock) {
+    public SellCommand(Stock pStock) {
         this.pStock = pStock;
     }
 

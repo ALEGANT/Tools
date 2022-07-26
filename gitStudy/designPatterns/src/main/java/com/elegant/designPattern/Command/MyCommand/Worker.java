@@ -1,4 +1,6 @@
-package com.ggf.designPattern.Command.MyCommand;
+package com.elegant.designPattern.Command.MyCommand;
+
+import com.elegant.designPattern.Command.Command;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,8 +14,9 @@ public class Worker {
     }
 
     public void run(){
-        while(!OrderList.isEmpty()){
-
+        for(Order order: OrderList){
+            order.execute();
         }
+        OrderList.clear();
     }
 }
